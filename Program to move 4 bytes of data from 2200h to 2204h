@@ -1,0 +1,13 @@
+LXI H,2200H
+MVI D,04H 
+LXI B,2204H
+J1:MOV A,M
+STAX B
+INX H
+INX B
+DCR D
+JNZ J1
+HLT
+
+(yesma chai 4 ota location ma data rakhney 2200 dekhi 2203 samma aani 
+output ma chai 2204 dekhi serially 4 location samma paila ko data copy huna paryo)
