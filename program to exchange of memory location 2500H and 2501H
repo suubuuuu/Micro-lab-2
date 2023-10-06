@@ -1,7 +1,9 @@
-LDA 2500 – Load accumulator with the content of location 2500
+LDA 2500H – Load accumulator with the content of location 2500
 MOV B, A – Copy content of accumulator to register B
-LDA 2501 – Load accumulator with the content of location 2501
-STA 2500 – Store content of accumulator to location 2500
+LDA 2501H – Load accumulator with the content of location 2501
+STA 2500H – Store content of accumulator to location 2500
 MOV A, B – Copy content of register B to accumulator
-STA 2501 – Store content of accumulator to location 2501
+STA 2501H – Store content of accumulator to location 2501
 HLT – Terminates the program
+
+(GARDA 2200 ma garne natra output aarkai ma dekhauxa talai tha hunna)
