@@ -1,0 +1,13 @@
+MVI A,00H
+MVI B,05H
+J1:ADD B
+DCR B
+JNZ J1
+MVI B,03H
+ADD B
+STA 2200H
+HLT
+
+( 1 t0 5 bhanexa tei bhayera 1 ra 5 hudaina
+2+3+4=9
+paxi 03 add garna bhanexa tei bhayera  results =12)
