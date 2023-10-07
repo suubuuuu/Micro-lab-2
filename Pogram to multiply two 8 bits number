@@ -1,0 +1,18 @@
+ LXI H, 1100H
+ MOV B, M  
+ INX H 
+ MOV C,M 
+MVI A,00H 
+TOP: ADD B 
+
+ DCR C 
+
+ JNZ TOP 
+ INX H
+
+ MOV M,A 
+
+ HLT
+(1100 ma eeuta number rakhney i.e 02
+aami 1101 ma eeuta i.e 03
+tespaxi result 1102 ma dekhauxa i.e 06)
