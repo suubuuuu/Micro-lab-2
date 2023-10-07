@@ -1,0 +1,20 @@
+MVI A,33H
+MVI B,78H
+ADD B
+CMA
+HLT
+
+Registers
+A/PSW	 0x5492
+BC	   0x7800
+DE     0x0000
+HL	   0x0000
+SP	   0xFFFF
+PC	   0x0807
+
+Assembler Output
+1	3E 33	  MVI A,33H
+2	06 78  MVI B,78H
+3	80	   ADD B
+4	2F	   CMA
+5	76	   HLT
