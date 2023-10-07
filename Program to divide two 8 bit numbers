@@ -1,0 +1,11 @@
+MVI A,08H
+MVI B,02H
+MVI C,00H
+J1:CMP B
+JC  J3
+SUB B
+INR C
+JMP J1
+J3:MOV A,C
+STA 3301H
+HLT siddhai 3301h  ma ans aako huncha hai
