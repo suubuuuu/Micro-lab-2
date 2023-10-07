@@ -1,0 +1,13 @@
+//program to move 10 bytes of data from starting address 9500h to 9600h
+MVI B,0AH
+LXI H,2200H
+LXI D,2210H
+J1:MOV A,M
+STAX D 
+INX H 
+INX D
+DCR B
+JNZ J1
+HLT
+(2200 dekhi 2209 samma data rakhney
+aani result 2210 dekhi 2219 samma aauxa)
