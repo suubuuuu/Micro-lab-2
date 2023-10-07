@@ -1,0 +1,18 @@
+MVI A,07H
+RLC
+MOV B,A
+RLC
+RLC
+ADD B
+RRC
+HLT
+
+Assembler Output:
+1	3E 07 	MVI A,07H
+2	07    	RLC
+3	47	    MOV B,A
+4	07	    RLC
+5	07	    RLC
+6	80	    ADD B
+7	0F	    RRC
+8	76	    HLT
